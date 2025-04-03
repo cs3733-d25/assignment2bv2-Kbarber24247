@@ -4,7 +4,7 @@ import Table1 from "./table1.tsx";
 
 function Hobby1(){
     return (
-        <>
+        <div>
             <h2>My name is Max and my favorite hobby is cars.</h2>
             <br/>
             <p>Pagani Huayra at the Top Gear test track.</p>
@@ -23,7 +23,7 @@ function Hobby1(){
                 Spec your dream 2002-2006 Audi A4
             </p>
 
-        </>
+        </div>
     )
 }
 

@@ -41,7 +41,6 @@
 .read-the-docs {
   color: #888;
 }
-=======
 .picture {
   width: 400px;
   will-change: filter;
@@ -62,5 +61,22 @@
   border-collapse: collapse;
   border: 1px solid black;
   margin: auto
+}
+
+body {
+  color: linen;
+  background-color: darkslategray;
+}
+nav {
+  text-align: center;
+  background-color: linen;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+nav ul, nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-inline: 150px;
+  padding: 5px
 }
 

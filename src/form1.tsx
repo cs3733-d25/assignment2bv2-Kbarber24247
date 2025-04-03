@@ -2,7 +2,7 @@
 
 function Form1(){
     return(
-        <>
+        <div>
             <form>
                 <label htmlFor="fullname">Enter your name: </label>
                 <input type="text" id="fullname"/>
@@ -62,7 +62,8 @@ function Form1(){
                 <button type="submit">Submit</button>
                 <br/>
             </form>
-        </>
+            <hr/>
+        </div>
     )
 }
 

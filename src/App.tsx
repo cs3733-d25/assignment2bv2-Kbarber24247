@@ -18,6 +18,11 @@ function App() {
             <div>
 
             </div>
+            <nav>
+                <ul>
+                    <li><a href="https://www.kawasaki.com/en-us/">Kawasaki</a></li>
+                </ul>
+            </nav>
             <Title/>
             <Intro name1={"Keith"} name2={"Max"} />
             <hr />
