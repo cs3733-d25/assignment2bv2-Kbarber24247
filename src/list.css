@@ -1,0 +1,9 @@
+.list {
+    list-style-type: -moz-simp-chinese-informal;
+    text-align: center;
+}
+
+
+.list li:hover {
+    color: darkred;
+}
