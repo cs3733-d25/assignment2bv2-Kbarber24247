@@ -5,6 +5,7 @@
   text-align: center;
 }
 
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -40,3 +41,26 @@
 .read-the-docs {
   color: #888;
 }
+=======
+.picture {
+  width: 400px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.picture:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.picture.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.highlight{
+  color: coral;
+}
+
+.collapse, .collapse td, .collapse th {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: auto
+}
+
