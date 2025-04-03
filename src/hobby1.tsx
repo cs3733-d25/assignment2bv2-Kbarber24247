@@ -1,13 +1,12 @@
-import carPic from "./assets/pagani.jpeg"
+
 import List1 from "./list1.tsx"
 import Table1 from "./table1.tsx";
 
 function Hobby1(){
     return (
-        <>
+        <div>
             <h2>My name is Max and my favorite hobby is cars.</h2>
             <br/>
-            <img src={carPic} alt="Pagani Huayra" className="picture" width={400}/>
             <p>Pagani Huayra at the Top Gear test track.</p>
             <hr/>
             <p>The Audi A4 is also a very cool car and is much more attainable than the Pagani.</p>
@@ -24,7 +23,7 @@ function Hobby1(){
                 Spec your dream 2002-2006 Audi A4
             </p>
 
-        </>
+        </div>
     )
 }
 

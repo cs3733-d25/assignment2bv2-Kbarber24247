@@ -12,6 +12,7 @@ function List1(){
                 <li>1.9L Turbo Diesel Inline 4</li>
                 <li>2.5L Turbo Diesel V6</li>
             </ol>
+            <hr/>
         </>
     )
 }
