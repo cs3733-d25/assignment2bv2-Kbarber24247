@@ -6,7 +6,7 @@ const Hobby2: React.FC = () => {
         <div className="keithHobby">
 
             <h2 className="keithHobby">My Name is Keith Barber, and I Love Motorcycles</h2>
-            <img src = "../public/KawasakiAI.jpeg" width="1000" alt="Kawasaki photo"/>
+            <img src = "../public/KawasakiAI.jpeg" width="400" alt="Kawasaki photo" className="picture"/>
             <hr/>
         </div>
     );
